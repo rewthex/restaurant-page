@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+    font-family: "Baskervville SC", serif;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+    background-color: whitesmoke;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+	isolation: isolate;
+}
+
+.header {
+    margin: 5px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 3fr 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+		'.     .    .'
+		'.   logo   .'
+		'.     .    .'
+		'.   home   .'
+		'about . menu'
+		'.     .    .';
+	max-width: 100%;
+	height: 30vh;
+	background-image: url(./images/restaurant.jpg);
+	background-size: cover;
+}
+
+.logo {
+	padding: 8px 14px;
+    letter-spacing: 3px;
+	grid-area: logo;
+	font-size: 2.5rem;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	background: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	border: 2px solid white;
+	height: fit-content;
+}
+
+.button {
+    font-weight: 600;
+    letter-spacing: 2px;
+	padding: 3px 9px;
+	max-width: 100px;
+	align-self: center;
+	justify-self: center;
+	background: rgba(0, 0, 0, 0.5);
+	transition: background 0.5s ease-in-out;
+	color: white;
+	border: 1px solid white;
+	
+}
+
+.button:hover {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.home {
+	grid-area: home;
+}
+
+.about {
+	grid-area: about;
+}
+
+.menu {
+	grid-area: menu;
+}
