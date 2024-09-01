@@ -97,14 +97,19 @@ h6 {
 	background: rgba(0, 0, 0, 0.8);
 }
 
-.home {
+.home-btn {
 	grid-area: home;
 }
 
-.about {
+.about-btn {
 	grid-area: about;
 }
 
-.menu {
+.menu-btn {
 	grid-area: menu;
+}
+
+.content {
+	margin: 5px;
+	height: 68vh;
 }
