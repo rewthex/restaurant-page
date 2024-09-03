@@ -1,0 +1,12 @@
+.about-container {
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.about-para {
+    max-width: 65ch;
+}

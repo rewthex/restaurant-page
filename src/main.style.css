@@ -110,6 +110,6 @@ h6 {
 }
 
 .content {
-	margin: 5px;
 	height: 68vh;
+	background-color: rgba(163, 152, 0, 0.24);
 }
