@@ -1,4 +1,5 @@
 import './home.style.css';
+
 const about = 'Founded in 1944, Ringside Steakhouse has been a cherished institution in Portland, Oregon, for over seven decades. This iconic steakhouse began as a humble family-owned establishment, born out of a deep passion for exceptional food and genuine hospitality. Located in the heart of Portland, Ringside quickly became known for its warm, inviting atmosphere and its dedication to serving the finest cuts of beef.'
 const hours = [
 	'Monday: 10am - 8pm',
