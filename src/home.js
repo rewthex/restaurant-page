@@ -54,4 +54,4 @@ export default (() => {
 	homeDiv.appendChild(locationDiv);
 
 	return homeDiv;
-})();
+});

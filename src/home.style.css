@@ -6,12 +6,27 @@
     align-items: center;
 }
 
+.about, .hours-list, .location-list {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .about {
     max-width: 60ch;
+    color: rgb(82, 82, 82);
+}
+
+.about::first-letter {
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 
 .hours-list, .location-list {
+
     list-style: none;
     padding-left: 0;
     text-align: center;
+    color: rgb(82, 82, 82);
 }

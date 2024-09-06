@@ -15,17 +15,17 @@ menuBtn.addEventListener('click', loadMenu)
 
 function loadHome() {
 	contentDiv.innerText = '';
-	contentDiv.appendChild(home);
+	contentDiv.appendChild(home());
 }
 
 function loadAbout() {
 	contentDiv.innerText = '';
-	contentDiv.appendChild(about);
+	contentDiv.appendChild(about());
 }
 
 function loadMenu() {
     contentDiv.innerText = '';
-	contentDiv.appendChild(menu);
+	contentDiv.appendChild(menu());
 }
 
 

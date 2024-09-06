@@ -60,4 +60,4 @@ export default (() => {
 		menuDiv.appendChild(menuItem);
 	});
     return menuDiv;
-})();
+});

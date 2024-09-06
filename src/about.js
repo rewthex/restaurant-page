@@ -17,4 +17,4 @@ export default (() => {
         aboutDiv.appendChild(aboutPara)
     })
 	return aboutDiv;
-})();
+});
